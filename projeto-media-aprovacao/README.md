@@ -1,12 +1,19 @@
-# Projeto Media Aprovacao
+# Projeto Média Aprovação
 
-**Descrição:** Cálculo de média de notas e aprovação/reprovação.
+**Descrição:** Cálculo de média de notas com verificação de aprovação/reprovação de alunos com base em quatro avaliações.
 
 ## O que o projeto faz
-Descreva aqui em mais detalhes o funcionamento do seu código.
+
+Este projeto em Python solicita ao usuário que insira quatro notas numéricas. Em seguida, calcula a média aritmética simples dessas notas.  
+Se a média for maior ou igual a 6.0, o programa exibe a mensagem **"Aprovado"**; caso contrário, exibe **"Reprovado"**.
+
+A lógica é baseada em estruturas condicionais `if/else` e entradas manuais via função `input()`.
 
 ## Exemplo de uso
-Adicione um exemplo de entrada/saída.
 
-## Aplicação na bioinformática
-(Se aplicável) Relacione o exercício com análise de dados biológicos.
+Este projeto pode ser utilizado, por exemplo, para analisar os valores de **afinidade de ligação (binding energy)** obtidos a partir de um ensaio de *docking molecular*, onde diferentes compostos foram testados contra uma proteína-alvo.
+
+O programa calcula a média das energias de ligação (valores geralmente negativos) e indica se a média é suficiente para considerar os compostos como bons candidatos a inibidores.
+
+### Simulação com dados de docking:
+
