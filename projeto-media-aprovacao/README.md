@@ -15,5 +15,3 @@ Este projeto pode ser utilizado, por exemplo, para analisar os valores de **afin
 
 O programa calcula a média das energias de ligação (valores geralmente negativos) e indica se a média é suficiente para considerar os compostos como bons candidatos a inibidores.
 
-### Simulação com dados de docking:
-
